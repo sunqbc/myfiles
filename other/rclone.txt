@@ -1,1 +1,2 @@
 
+https://raw.githubusercontent.com/sunqbc/myfiles/master/other/rclone_debian.sh && bash rclone_debian.sh

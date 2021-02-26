@@ -22,6 +22,7 @@ case $choice in
 	curl https://raw.githubusercontent.com/sunqbc/bt-happy/master/bt.pem -o /www/server/panel/vhost/cert/www.bt.cn/bt.pem
 	chown www:www /www/wwwroot/www.bt.cn/* -R
 	/etc/init.d/nginx reload
+	echo " " >> /etc/hosts
 	echo "127.0.0.1 www.bt.cn" >> /etc/hosts
 	echo "127.0.0.1 bt.cn" >> /etc/hosts
 	chattr +i /etc/hosts
